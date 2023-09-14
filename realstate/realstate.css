@@ -328,11 +328,11 @@ width: 100%;
     margin-top: 60px;
 }
 .man_image{
-    height: 85vh;
+    height: 65vh;
 }
 .man_image img{
     width: 100vw;
-    height: 85vh;
+    height: 65vh;
     margin-right: 0px;
 }
 .before_footer_content{
@@ -613,6 +613,12 @@ footer{
     .image-group{
         width: 340px;
     }  
+    .man_image{
+        height: 85vh;
+    } 
+    .man_image img{
+        height: 85vh;
+    }
 }
  @media screen and (min-width:992px) {
     .card{
