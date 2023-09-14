@@ -10,12 +10,12 @@ background-color: rgba(165, 42, 42, 0.699);
     }
 header{
     width: 100vw;
-    height: 110vh;
+    height: 90vh;
     position: relative;
 }
 header .carousel-item img{
     width: 100vw;
-    height: 110vh;
+    height: 90vh;
 }
 .carousel-caption{
     margin-bottom: 45vh;
@@ -323,7 +323,9 @@ width: 100%;
 .jeremy_scott_child{
     width: 100vw;
     height: 90vh;
-    margin-left: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
 }
 .man_image{
     height: 85vh;
@@ -579,6 +581,12 @@ footer{
     }
 }
 @media screen and (min-width:768px) {
+    header{
+        height:110vh;
+    }
+    header .carousel-item img{
+        height:110vh;
+    }
     .style-input {
         width: 200px;
     }
@@ -635,6 +643,7 @@ footer{
         width: 40vw;
         height: auto;
         margin-left: 0vh;
+        margin-top:none;
     }
     .man_image{
         height: 85vh;
